@@ -31,7 +31,7 @@ void loop() {
     Serial.println("GELEN: " + gelen);
     
     // 3. ADIM: KISA BİR BEKLEME VE LED'İ SÖNDÜR
-    delay(5000); 
+    delay(2000); 
     digitalWrite(LED_PIN, LOW);
   }
 }
