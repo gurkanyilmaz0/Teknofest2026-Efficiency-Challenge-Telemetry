@@ -30,5 +30,5 @@ void loop() {
   loraSerial.println(mesaj);
   Serial.println("Paket Gonderildi: " + mesaj);
 
-  delay(500); 
+  delay(2000); 
 }
